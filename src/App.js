@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes} from "react-router-dom";
-import Candycrush from "./Candycrush";
+import PlayGame from "./PlayGame";
 import Startpage from "./Startpage";
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
     <>
     <Routes>
       <Route path="/" element= {<Startpage />}/>
-      <Route path="/candycrush" element= {<Candycrush/>}/>
+      <Route path="/playgame" element= {<PlayGame />}/>
     </Routes>
     </>
   );

@@ -20,7 +20,7 @@ const candyColor = [
   yellowCandy,
 ];
 
-const Candycrush = () => {
+const PlayGame = () => {
   const [currColorArr, setCurrColorArr] = useState([]);
   const [squareDragged, setSquareDragged] = useState(null);
   const [squareReplaced, setSquareReplaced] = useState(null);
@@ -239,7 +239,7 @@ const Candycrush = () => {
   };
 
   const playAgain = () => {
-    Candycrush();
+    PlayGame();
   };
 
   useEffect(() => {
@@ -306,7 +306,7 @@ const Candycrush = () => {
           <div className="cont-start">
             <h1>Your Score is {totalScore}</h1>
             <div className="btns">
-              <NavLink to="/candycrush" onClick={playAgain} className="btn">
+              <NavLink to="/playgame" onClick={playAgain} className="btn">
                 Play Again
               </NavLink>
               <NavLink to="/" className="btn btn-exit">
@@ -320,4 +320,4 @@ const Candycrush = () => {
   }
 };
 
-export default Candycrush;
+export default PlayGame;
