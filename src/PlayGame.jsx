@@ -238,10 +238,6 @@ const PlayGame = () => {
       setCurrColorArr(randomColorArrangement);
   };
 
-  const playAgain = () => {
-    PlayGame();
-  };
-
   useEffect(() => {
       createBoard();
   }, []);
