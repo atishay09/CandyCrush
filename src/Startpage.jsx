@@ -6,7 +6,7 @@ const Startpage = () => {
     <>
     <div className="cont">
       <div className="cont-start"><h1>Play Candy Crush</h1>
-      <NavLink to="/playgame" className="btn">
+      <NavLink to="/candycrush/playgame" className="btn">
         PLAY 
       </NavLink>
       </div>
