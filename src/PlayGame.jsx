@@ -25,7 +25,7 @@ const PlayGame = () => {
   const [squareDragged, setSquareDragged] = useState(null);
   const [squareReplaced, setSquareReplaced] = useState(null);
   const [totalScore, setNewScore] = useState(0);
-  const [moves, setMoves] = useState(2);
+  const [moves, setMoves] = useState(20);
   const [over, setOver] = useState(false);
 
   const checkForRowOfThree = () => {
@@ -306,9 +306,6 @@ const PlayGame = () => {
           <div className="cont-start">
             <h1>Your Score is {totalScore}</h1>
             <div className="btns">
-              <Link to="/candycrush" className="btn">
-                Play Again
-              </Link>
               <Link to="/candycrush" className="btn">
                 Play Again
               </Link>

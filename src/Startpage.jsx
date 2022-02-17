@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Startpage = () => {
   return (

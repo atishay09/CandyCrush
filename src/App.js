@@ -9,7 +9,6 @@ const App = () => {
     <Routes>
       <Route path="/candycrush" element= {<Startpage />}/>
       <Route path="/candycrush/playgame" element= {<PlayGame />}/>
-      <Route path="/candycrush/playagain" element= {<PlayGame />}/>
       <Route path="*" element= {<Navigate replace to='/candycrush' />}/>
     </Routes>
     </>
