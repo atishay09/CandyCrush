@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/%E2%80%9Chttps://atishay09.github.io/CandyCrush/static/css/main.97ae74c9.css",
-    "main.js": "/%E2%80%9Chttps://atishay09.github.io/CandyCrush/static/js/main.0453f76a.js",
-    "static/js/787.947b0c8b.chunk.js": "/%E2%80%9Chttps://atishay09.github.io/CandyCrush/static/js/787.947b0c8b.chunk.js",
-    "static/media/background2.png": "/%E2%80%9Chttps://atishay09.github.io/CandyCrush/static/media/background2.7dbc4df1540cd02ab8dc.png",
-    "static/media/backgroung-img.jpg": "/%E2%80%9Chttps://atishay09.github.io/CandyCrush/static/media/backgroung-img.7ab4684e1ba3347aea17.jpg",
-    "static/media/blank.png": "/%E2%80%9Chttps://atishay09.github.io/CandyCrush/static/media/blank.a2402a5966938569acc5.png",
-    "index.html": "/%E2%80%9Chttps://atishay09.github.io/CandyCrush/index.html",
-    "main.97ae74c9.css.map": "/%E2%80%9Chttps://atishay09.github.io/CandyCrush/static/css/main.97ae74c9.css.map",
-    "main.0453f76a.js.map": "/%E2%80%9Chttps://atishay09.github.io/CandyCrush/static/js/main.0453f76a.js.map",
-    "787.947b0c8b.chunk.js.map": "/%E2%80%9Chttps://atishay09.github.io/CandyCrush/static/js/787.947b0c8b.chunk.js.map"
+    "main.css": "/CandyCrush/static/css/main.55c184e5.css",
+    "main.js": "/CandyCrush/static/js/main.4fb6b851.js",
+    "static/js/787.947b0c8b.chunk.js": "/CandyCrush/static/js/787.947b0c8b.chunk.js",
+    "static/media/background2.png": "/CandyCrush/static/media/background2.7dbc4df1540cd02ab8dc.png",
+    "static/media/backgroung-img.jpg": "/CandyCrush/static/media/backgroung-img.7ab4684e1ba3347aea17.jpg",
+    "static/media/blank.png": "/CandyCrush/static/media/blank.a2402a5966938569acc5.png",
+    "index.html": "/CandyCrush/index.html",
+    "main.55c184e5.css.map": "/CandyCrush/static/css/main.55c184e5.css.map",
+    "main.4fb6b851.js.map": "/CandyCrush/static/js/main.4fb6b851.js.map",
+    "787.947b0c8b.chunk.js.map": "/CandyCrush/static/js/787.947b0c8b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97ae74c9.css",
-    "static/js/main.0453f76a.js"
+    "static/css/main.55c184e5.css",
+    "static/js/main.4fb6b851.js"
   ]
 }
