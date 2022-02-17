@@ -306,7 +306,7 @@ const PlayGame = () => {
           <div className="cont-start">
             <h1>Your Score is {totalScore}</h1>
             <div className="btns">
-              <NavLink to="/candycrush/playgame" onClick={playAgain} className="btn">
+              <NavLink to="/candycrush/playagain" onClick={playAgain} className="btn">
                 Play Again
               </NavLink>
               <NavLink to="/candycrush" className="btn btn-exit">
