@@ -8,7 +8,7 @@ import yellowCandy from "./images/Yellow-candy.png";
 import blank from "./images/blank.png";
 import Scoreboard from "./components/Scoreboard";
 import "./App";
-import { NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const width = 8;
 const candyColor = [
@@ -306,12 +306,12 @@ const PlayGame = () => {
           <div className="cont-start">
             <h1>Your Score is {totalScore}</h1>
             <div className="btns">
-              <NavLink to="/candycrush" className="btn">
+              <Link to="/candycrush" className="btn">
                 Play Again
-              </NavLink>
-              <NavLink to="/candycrush" className="btn btn-exit">
-                Exit
-              </NavLink>
+              </Link>
+              <Link to="/candycrush" className="btn">
+                Play Again
+              </Link>
             </div>
           </div>
         </div>
