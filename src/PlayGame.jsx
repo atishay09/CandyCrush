@@ -302,7 +302,7 @@ const PlayGame = () => {
           <div className="cont-start">
             <h1>Your Score is {totalScore}</h1>
             <div className="btns">
-              <Link to="/candycrush" className="btn">
+              <Link to="/" className="btn">
                 Play Again
               </Link>
             </div>
