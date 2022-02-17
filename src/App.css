@@ -1,38 +1,146 @@
-.App {
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.main-div{
+  height: 100vh;
+  background-image: url('./images/backgroung-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(2px);
+}
+
+.main-div h1{
+  padding: 0;
+  margin-top: 0px;
   text-align: center;
+  padding: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.game{
+  padding: 4px;
+  box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, .5);
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.game img{
+  width: 70px;
+  height: 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.score-moves{
+  display: flex;
+  width: 560px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.cont{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./images/background2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cont .cont-start{
+  color: rgb(13, 13, 14);
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 200px;
+  width: 280px;
+  background: rgb(63,94,251);
+  background: rgb(255,0,52);
+  background: radial-gradient(circle, rgba(255,0,52,0.4) 21%, rgba(0,249,77,0.1) 70%);
+  box-shadow: 2px 2px 5px 1px black;
 }
 
-.App-link {
-  color: #61dafb;
+.btn{
+  text-decoration: none;
+  color: #27f1a4;
+  border: 1px solid #27f1a4;
+  border-radius: 25px;
+  font-weight: 500;
+  padding: 10px 25px;
+  transition: 0.8s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn:hover{
+  background: #27f1a4;
+  color: #fff;
+}
+
+.btn.btn-exit{
+  color: rgb(233, 80, 80);
+  border: 1px solid rgb(233, 80, 80);
+}
+
+.btn.btn-exit:hover{
+  background: rgb(233, 80, 80);
+  color: #fff;
+}
+
+.btns .btn{
+  margin: 10px;
+}
+
+@media screen and (max-width : 700px) {
+  .game{
+    width: 400px;
+    height: 400px;
   }
-  to {
-    transform: rotate(360deg);
+  .game img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .score-moves{
+    width: 400px;
+  }
+  .main-div h1{
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width : 450px) {
+  .game{
+    width: 360px;
+    height: 360px;
+  }
+  .game img{
+    width: 45px;
+    height: 45px;
+  }
+  
+  .score-moves{
+    width: 360px;
+  }
+}
+
+@media screen and (max-width : 380px) {
+  .game{
+    width: 280px;
+    height: 280px;
+  }
+  .game img{
+    width: 35px;
+    height: 35px;
+  }
+  
+  .score-moves{
+    width: 280px;
   }
 }
