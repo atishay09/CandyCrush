@@ -9,7 +9,7 @@ const App = () => {
     <Routes>
       <Route path="/" element= {<Startpage />}/>
       <Route path="/playgame" element= {<PlayGame />}/>
-      <Route path="*" eelement= {<Navigate replace to='/' />}/>
+      <Route path="/:name" element= {<Navigate replace to='/' />}/>
     </Routes>
     </>
   );
